@@ -1,13 +1,17 @@
-
-
 **Dropzone**
 --------------
 
 Mendix implementation of the DropZone widget.
+
+Credits to: http://www.dropzonejs.com/
  
 **Description**
 
  Upload multiple images or filedocuments on a canvas an upload them together. All processed files are marked with a tick-box, errors with a red cross.
+ 
+**History**
+
+Update 3.0.2: css loading on linux and Mendix cloud
 
 **Typical usage scenario**
 
@@ -43,11 +47,14 @@ Mendix implementation of the DropZone widget.
 
 -   Remove caption. If loaded this will be displayed on the icon
 
+-   Auto Start Upload: Hides upload button start uploading on drop.
+
 
 **Known bugs**
 
  When you don't provide an on remove microflow the file is deleted but the screen is not refreshed.
 
+ All of the original issues of the [Dropzone library] (https://github.com/enyo/dropzone/issues)
  
 
 **Frequently Asked Questions**
